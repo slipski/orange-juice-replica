@@ -1,0 +1,19 @@
+body h2{
+font-family: 'hind'fantasy, sans-serif;
+font-weight: 400;
+font-color: white;
+}
+
+span.superscript {
+vertical-align: super; font-size:50%;
+}
+
+span.regular{
+  font-family: "hind", sans-serif;
+  font-weight: 400;
+}
+
+.orng{
+  font-family: "hind", sans-serif;
+  font-weight: 700;
+}
