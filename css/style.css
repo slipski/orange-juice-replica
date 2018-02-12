@@ -1,27 +1,70 @@
 body h2{
-font-family: 'Hind', sans-serif;
-font-weight: 400;
-color: white;
-background-color: orange;
+  font-family: 'hind', sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: orange;
+  margin:0;
+}
+/*nav bar list*/
+.header{
+  width: 95%;
+  height: auto;
+  background-color: orange;
 }
 
-span.sup{
-    vertical-align: super;
-    font-size: smaller;
-    vertical-align: super; font-size:50%;
+/* logo to the left */
+div .logo{
+  list-style-type: none;
+  float: left;
+  padding-top: 3px;
+}
+
+.orng-1 regular superscript{
+  font-weight: 700;
+}
+
+span.superscript{
+  vertical-align: super;
+  font-size: smaller;
+  vertical-align: super; font-size:40%;
+}
+/* links to the top right */
+.nav a:hover{
+  background-color: Orange;
+  color:blue;
+  font-family: 'hind', sans-serif;
+  font weight: 300;
+}
+
+.nav h4 {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+  font-family: 'hind', sans-serif;
+  background: orange;
+  padding-right: 70px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+div .mid{
+  font-family: "hind",sans-serif;
+  background: #66ccff;
+  font-size: 28px;
+  float: right;
 }
 
 span.regular{
-  font-family: "hind";
+  font-family: "hind",sans-serif;
   font-weight: 400;
 }
 
 .orng{
-  font-family: "hind";
+  font-family: "hind",sans-serif;
   font-weight: 700;
-
+  padding-left: 10px;
 }
 
-.superscript{
-  font-size: small;
+.web,.app{
+  color: #66ccff;
 }
