@@ -1,22 +1,27 @@
-body h2{
-  font-family: 'hind', sans-serif;
-  font-weight: 400;
-  color: white;
-  background-color: orange;
-  margin:0;
-}
+
 /*nav bar list*/
 .header{
-  width: 95%;
-  height: auto;
+  height: 83px;
   background-color: orange;
 }
 
 /* logo to the left */
 div .logo{
   list-style-type: none;
-  float: left;
+  text-align: left;
+  width: 48%;
   padding-top: 3px;
+  padding-left: 10px;
+}
+
+.logo{
+  display: inline-block;
+  width: 40%;
+}
+
+.nav{
+  display: inline-block;
+  width: 58%;
 }
 
 .orng-1 regular superscript{
@@ -30,28 +35,57 @@ span.superscript{
 }
 /* links to the top right */
 .nav a:hover{
-  background-color: Orange;
   color:blue;
   font-family: 'hind', sans-serif;
   font weight: 300;
 }
 
-.nav h4 {
+li{
   display: inline-block;
-  list-style-type: none;
-  float: right;
-  font-family: 'hind', sans-serif;
-  background: orange;
-  padding-right: 70px;
-  margin-top: 5px;
-  text-align: center;
+  padding: 10px;
+
 }
 
-div .mid{
+div.nav  {
+  display: inline-block;
+  list-style-type: none;
+  text-align: right;
+  width: 48%;
+  font-family: 'hind', sans-serif;
+  margin-top: 5px;
+  text-align: center;
+
+}
+.p-line{
+padding-left: 30px;
+}
+
+.search{
+text-align: right;
+}
+
+input{
+  padding: 12px;
+}
+
+.mag{
+  position:relative;
+  left:-45px;
+  bottom: -10px;
+  width: 25px;
+}
+
+button{
+margin: 20px;
+padding: 5px 10px;
+
+}
+div.mid{
+  display: inline-block;
+  width: 45%
   font-family: "hind",sans-serif;
   background: #66ccff;
   font-size: 28px;
-  float: right;
 }
 
 span.regular{
@@ -67,4 +101,23 @@ span.regular{
 
 .web,.app{
   color: #66ccff;
+}
+
+.p-line{
+  display: inline-block;
+  width: 45%;
+  font-family: 'hind', sans-serif;
+  font-weight: 400;
+  color: orange;
+  margin:0;
+}
+
+.footer{
+height: 100px;
+background-color: #66ccff;
+text-align:center;
+height: 16px;
+}
+@media{
+  
 }
